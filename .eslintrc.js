@@ -8,25 +8,26 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
     'import/no-import-module-exports': 'off',
+    'max-classes-per-file': false,
   },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,
-    createDefaultProgram: true,
+    createDefaultProgram: true
   },
   settings: {
     'import/resolver': {
       // See https://github.com/benmosher/eslint-plugin-import/issues/1396#issuecomment-575727774 for line below
       node: {},
       webpack: {
-        config: require.resolve('./.erb/configs/webpack.config.eslint.ts'),
+        config: require.resolve('./.erb/configs/webpack.config.eslint.ts')
       },
-      typescript: {},
+      typescript: {}
     },
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
-  },
-};
+      '@typescript-eslint/parser': ['.ts', '.tsx']
+    }
+  }
+}
