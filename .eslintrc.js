@@ -10,6 +10,8 @@ module.exports = {
     'import/no-import-module-exports': 'off',
     'max-classes-per-file': 'off',
     'no-unused-vars': 'warn',
+    'prettier/prettier': 'warn',
+    'lines-between-class-members': 'off',
   },
   parserOptions: {
     ecmaVersion: 2020,
