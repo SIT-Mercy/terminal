@@ -1,4 +1,2 @@
 class Point {}
-class Action {
-  
-}
+class Action {}

@@ -9,6 +9,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-import-module-exports': 'off',
     'max-classes-per-file': 'off',
+    'no-unused-vars': 'warn',
   },
   parserOptions: {
     ecmaVersion: 2020,
