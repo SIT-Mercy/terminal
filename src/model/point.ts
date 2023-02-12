@@ -1,6 +1,4 @@
-class Point{
-
-}
-class B{
+class Point {}
+class Action {
   
 }
