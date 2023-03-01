@@ -12,6 +12,8 @@ module.exports = {
     'no-unused-vars': 'warn',
     'prettier/prettier': 'warn',
     'lines-between-class-members': 'off',
+    'react/prefer-stateless-function': 'warn',
+    'import/prefer-default-export': 'warn',
   },
   parserOptions: {
     ecmaVersion: 2020,
@@ -33,4 +35,5 @@ module.exports = {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
   },
+  plugins: ['html'],
 };

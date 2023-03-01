@@ -1,6 +1,7 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import icon from '../../assets/icon.svg';
 import './App.css';
+import { LoginPage } from './login/Login';
 
 function Hello() {
   return (
@@ -43,6 +44,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/" element={<Hello />} />
       </Routes>
     </Router>
